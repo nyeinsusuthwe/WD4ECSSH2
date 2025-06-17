@@ -1,0 +1,97 @@
+div {
+  background-color: rgb(179, 245, 247);
+}
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: medium;
+  background-color: rgba(123, 248, 236, 0.192);
+}
+
+header {
+  background-color: azure;
+}
+
+nav {
+  display: flex;
+  padding: 3px;
+  background-color: beige;
+  margin-bottom: 15px;
+  /* width: 80%; */
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px 0px;
+}
+
+nav > img {
+  display: inline-block;
+  width: 7%;
+  margin-right: 100px;
+}
+
+main {
+  font-size: large;
+  background-color: beige;
+}
+
+footer {
+  background-color: beige;
+  font-size: 13px;
+  text-align: center;
+  margin: 50px 0;
+}
+
+ul {
+  text-align: center;
+  display: inline-block;
+}
+
+li {
+  display: inline-block;
+  margin: 0px 50px;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: rgba(12, 101, 196, 0.928);
+  background-color: beige;
+  font-size: 30px;
+  padding: 25px;
+}
+
+p {
+  line-height: 1em;
+  color: rgba(12, 101, 196, 0.928);
+}
+
+.space {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-items: center;
+  margin: 0 auto;
+  row-gap: 24px;
+}
+
+.base {
+  color: rgba(12, 101, 196, 0.582);
+}
+
+header a {
+  display: block;
+}
+
+.park {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.park > img {
+  width: 250px;
+  padding: 16px;
+}
+
+.space > img {
+  width: 60%;
+}
