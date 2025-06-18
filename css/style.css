@@ -34,7 +34,7 @@ main {
 }
 
 footer {
-  background-color: rgb(153, 153, 142);
+  background-color: beige;
   font-size: 13px;
   text-align: center;
   margin: 50px 0;
@@ -73,7 +73,7 @@ p {
 }
 
 .base {
-  color: white;
+  color: rgba(12, 101, 196, 0.928);
 }
 
 header a {
